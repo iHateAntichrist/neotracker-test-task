@@ -55,7 +55,6 @@ export const NeosList = () => {
       clearInterval(interval);
     };
   }, [currentDay]);
-  
 
   const getHighestHazardousCounts = () => {
     const sortedNeos = [...neos].sort(
